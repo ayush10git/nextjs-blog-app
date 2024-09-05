@@ -8,7 +8,7 @@ const Navbar = async () => {
 
   return (
     <div className={styles.container}>
-      <Link href="/" className={styles.logo}><p>Delilah's</p></Link>
+      <Link href="/" className={styles.logo}>Blogger</Link>
       <div>
         <Links session={session}/>
       </div>
